@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>My Dice 🎲</h1>
+      <h1>My Dice</h1>
 
       <Dice num={num} />
 
