@@ -6,8 +6,8 @@ function App() {
   const [num, setNum] = useState(1);
 
   function rollDice() {
-    const random = Math.floor(Math.random() * 6) + 1;
-    setNum(random);
+    const randomNum = Math.floor(Math.random() * 6) + 1;
+    setNum(randomNum);
   }
 
   return (
